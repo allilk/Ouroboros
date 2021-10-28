@@ -1,17 +1,24 @@
 {
-  "name": "ouroboros",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.5.2",
-    "prettier": "^2.3.2"
-  }
+	"name": "ouroboros",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/allilk/Ouroboros.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/allilk/Ouroboros/issues"
+	},
+	"homepage": "https://github.com/allilk/Ouroboros#readme",
+	"dependencies": {
+		"apollo-server": "^3.4.0",
+		"eslint-plugin-graphql": "^4.0.0",
+		"graphql": "^15.6.1"
+	}
 }
